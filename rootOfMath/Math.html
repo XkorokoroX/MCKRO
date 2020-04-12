@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta http-equiv="content-type" charset="utf-8">
+
+	<head>
+		平方根の計算(Hello World!) <br><br>
+	</head>
+
+	<body>
+
+		<div id="form-text">
+			<!-- 入力 -->
+			<p>開発者モード<input type="checkbox" name="DebugButton" id="DebugButton" onclick="DebugOn()"></p>
+			<h3>回答入力<br><font size="0.5">(半角で入力し,根号の中身は出来る限り小さくしてください)</font></h3>
+
+			<form name="InputA" id="InputA">
+
+				<input type="text" name="A" id="A">
+					<input type="button" class = "AnswerButton" name="button" id="button" value="答える" onclick="return false;">
+					
+				<p id="Debug"></p>
+
+			</form>
+			<br>
+			<br>
+			<script type="text/javascript" src="Math.js"></script>
+
+		</div>
+
+		<link rel="stylesheet" href="Math.css">
+
+	</body>
+	<footer>
+		<p>made by KRO(https://mckro.blog)</p>
+	</footer>
+
+</html>
